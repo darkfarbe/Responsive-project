@@ -108,3 +108,24 @@ p {
   font-size: 50px;
   color: #000;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px !important;
+  }
+
+  .remove-photo {
+    display: none;
+  }
+
+  .phone-view {
+    font-size: 35px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+
+  .img-phone {
+    margin: 10px 0;
+  }
+}
